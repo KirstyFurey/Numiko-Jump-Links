@@ -18,5 +18,37 @@ body {
 
 .sec-text {
 	letter-spacing: 0.2em;
+	overflow-wrap: break-word;
 }
- 
+
+nav {
+    display: flex;
+	justify-content: center;
+	width: 100%;
+	font-weight: 900;
+	color: white;
+	background-color: black;
+	z-index: 50;
+}
+
+.nav-items {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-sec {
+    display: flex;
+    padding: 0px;
+    list-style-type: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigate ul li {
+	display: none;
+}
+
+.navigate ul:hover li {
+	display: block;
+}
