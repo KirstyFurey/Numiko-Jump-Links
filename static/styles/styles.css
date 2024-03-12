@@ -1,3 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	margin: none;
+	padding: none;
+}
 
+.sec-contain {
+	background-color: #f7f7f7;
+	padding: 10px;
+}
+
+.sec-head {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.sec-text {
+	letter-spacing: 0.2em;
+}
+ 
