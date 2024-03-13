@@ -7,9 +7,13 @@ body {
 	padding: none;
 }
 
-.sec-contain {
+section {
 	background-color: #f7f7f7;
 	padding: 10px;
+}
+
+.anchor {
+	padding: 20px 0px;
 }
 
 .sec-head {
@@ -34,6 +38,8 @@ nav {
 	color: white;
 	background-color: black;
 	z-index: 50;
+	position: sticky;
+	top: 0px;
 }
 
 .nav-items {
@@ -48,6 +54,7 @@ nav {
     list-style-type: none;
 	justify-content: center;
 	align-items: center;
+	margin: 0px;
 }
 
 .navigate {
