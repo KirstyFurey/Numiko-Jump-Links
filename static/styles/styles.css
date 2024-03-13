@@ -16,6 +16,11 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .sec-text {
 	letter-spacing: 0.2em;
 	overflow-wrap: break-word;
