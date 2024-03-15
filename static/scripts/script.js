@@ -67,7 +67,7 @@ const section = () => {
 		pCont.innerText = "First Thing's First";
 	}
 }
-// NON WORKING
+// NOW WORKING
 const scrollProgress = document.getElementById('scroll-progress')
 
 const progress = () => {
